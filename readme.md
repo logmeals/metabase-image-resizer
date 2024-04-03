@@ -35,4 +35,6 @@ Fortunately, you can white-list your domain easily by running:
 
 Built and maintained by Jim Bisenius with the support of [**365, GPT-AI Calorie Counter**](https://logmeals.com).
 
+For now, most of the code has been written by ***Chat GPT-4 🙏*** with small revisions where necessary, and has only been tested at small-scale. If you see any bugs, let me know!
+
 Appreciate this plugin? We don't accept donations, but the most helpful things you could do for us is [**downloading and trying our app** *(100% free, no credit card required)*](https://apps.apple.com/us/app/365-gpt-ai-calorie-counter/id6443741431).
