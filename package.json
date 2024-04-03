@@ -1,0 +1,19 @@
+{
+  "name": "metabase-image-resizer",
+  "version": "1.0.0",
+  "description": "A Google Chrome extension that allows users to click on any image in a Metabase table to resize them.",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logmeals/metabase-image-resizer.git"
+  },
+  "author": "Jim Bisenius",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/logmeals/metabase-image-resizer/issues"
+  },
+  "homepage": "https://github.com/logmeals/metabase-image-resizer#readme"
+}

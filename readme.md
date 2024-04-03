@@ -1,0 +1,1 @@
+# Metabase Image Resizer

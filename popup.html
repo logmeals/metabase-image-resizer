@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Magnifier Multiplier</title>
+    <style>
+        body {
+            width: 265px;
+            padding: 16px;
+            padding-bottom: 56px;
+            margin: 0;
+            border: solid 1px #C9C9C9;
+            background: #FFF;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            gap: 12px;
+            position: relative;
+        }
+        *, input, button {
+            font-family: 'Inter', 'SF Pro', 'Helvetica', 'Arial', sans-serif;
+        }
+        input {
+            flex: 1;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            letter-spacing: -.03px;
+            font-weight: 500;
+            border: solid 2px #C9C9C9;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 15px;
+            letter-spacing: -.035px;
+            font-weight: 600;
+            background: #4991D0;
+            border: none;
+            color: #FFF;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #3880C0;
+        }
+        
+        label {
+            font-size: 16px;
+            letter-spacing: -.4px;
+            font-weight: 500;
+        }
+
+        #credits-banner {
+            position: absolute;
+            padding: 8px;
+            font-size: 14px;
+            background: #CCC;
+            bottom: 0;
+            left:0;
+            right:0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: rgba(0,0,0,.55);
+            font-size: 12px;
+            letter-spacing: -.2px;
+        }
+
+        #logo {
+            height: 20px;
+            margin-right: 6px;
+            border-radius: 4px;
+        }
+
+        #wordmark {
+            font-weight: 600;
+            color: #000;
+            margin-right: 6px;
+        }
+
+        #version {
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+        <div id="credits-banner">
+            <img src="/images/icon128.png" id="logo"/>
+            <span id="wordmark">MB Img Resizer</span>
+            <span id="version">v1.0.0</span>
+            <span id="author">By <a target="_blank" id="author-name" href="https://github.com/jimmybisenius">Jim Bisenius</a></span>
+        </div>
+        <label for="multiplier">Magnification Multiplier:</label>
+        <input type="number" id="multiplier" min="1" step="any" value="4">
+        <button id="saveBtn">Save</button>
+    <script src="popup.js"></script>
+</body>
+</html>
