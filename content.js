@@ -1,7 +1,4 @@
-if (window.location.hostname.includes('metabase')) {
-    // Only continue if the hostname contains 'metabase'
-
-    document.addEventListener('click', function(e) {
+document.addEventListener('click', function(e) {
         let targetSpan = e.target.closest('span.cellData');
     
         if (targetSpan && targetSpan.closest('table') && targetSpan.querySelectorAll('img').length === 1) {
@@ -35,5 +32,3 @@ if (window.location.hostname.includes('metabase')) {
         });
         }
     }, true);
-  
-}

@@ -14,6 +14,23 @@ This is helpful when users/customers submit photo data that you want to analyze 
 - On a "Latest meals added" question for a calorie counter app, using this plugin to enlarge and view the latest photos submitted by users
 - On a "Latest deliveries" question for a logistics app, using this plugin to view Proof of delivery photos provided by couriers
 
+### Before using:
+By default, this plugin only works on Official Cloud-Hosted Metabase Dashboards using a `.metabaseapp.com` URL.
+
+Unfortunately due to Google Chrome Plugin API restrictions, I'm not able to include permissions for this app to work on your self-hosted Metabase or any Metabase using a custom domain.
+
+Fortunately, you can white-list your domain easily by running:
+1. First, clone this project locally, and CD to the project's root directory
+2. Next, run `npm run add-domain metabase.example.com` inside your local shell
+3. Next, open Google Chrome, and visit (`chrome://extensions`)[chrome://extensions]
+4. Enable Developer mode in the top-right hand corner (if it's not already enabled)
+5. Now, click the new "Load unpacked" button in the top-left hand corner, and select the project folder
+6. That's it. Enjoy your new plugin!
+
+**PS, Need to share your plugin with coworkers/colleagues?** I recommend installing it on their behalf, or sending them your project directory ready for install, along with instructions 3-6.
+
+
+
 ## Credits
 
 Built and maintained by Jim Bisenius with the support of [**365, GPT-AI Calorie Counter**](https://logmeals.com).
