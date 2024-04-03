@@ -1,5 +1,5 @@
 <h1 style="display: flex; align-items: center; justify-content: flex-start; text-align: left;">
-  <img src="https://github.com/logmeals/metabase-image-resizer/blob/master/images/icon128.png?raw=true" alt="Your Image Alt Text" style="height: 40px;margin-right: 12px; border-radius: 5px;"> <div style="margin-right:20px;">Metabase Image Resizer</div><img src="https://img.shields.io/badge/Current%20version-v1.0.0%20Stable-green" alt="Version 1.0.0" style="margin-left: 20px;"/>
+  <img src="https://github.com/logmeals/metabase-image-resizer/blob/master/images/icon128.png?raw=true" alt="Your Image Alt Text" style="height: 40px;margin-right: 12px; border-radius: 5px;">Metabase Image Resizer   <img src="https://img.shields.io/badge/Current%20version-v1.0.0%20Stable-green" alt="Version 1.0.0" style="margin-left: 20px;"/>
 </h1>
 
 A Google Chrome extension that allows you to:
