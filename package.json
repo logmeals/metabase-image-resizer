@@ -4,7 +4,7 @@
   "description": "A Google Chrome extension that allows users to click on any image in a Metabase table to resize them.",
   "main": "content.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "add-domain": "node add-domain.js"
   },
   "repository": {
     "type": "git",

@@ -21,7 +21,7 @@ Unfortunately due to Google Chrome Plugin API restrictions, I'm not able to incl
 
 Fortunately, you can white-list your domain easily by running:
 1. First, clone this project locally, and CD to the project's root directory
-2. Next, run `npm run add-domain metabase.example.com` inside your local shell
+2. Next, run `npm run add-domain "metabase.example.com"` inside your local shell
 3. Next, open Google Chrome, and visit (`chrome://extensions`)[chrome://extensions]
 4. Enable Developer mode in the top-right hand corner (if it's not already enabled)
 5. Now, click the new "Load unpacked" button in the top-left hand corner, and select the project folder
